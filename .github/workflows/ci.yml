@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Lint
+        run: uvx ruff check --output-format=github .
+      - name: Byte-compile every script
+        # The scripts reach the network and a logged-in browser, so there is nothing
+        # to unit-test in CI; this catches syntax errors on the declared Python.
+        run: uv run --python 3.13 python -m compileall -q notube

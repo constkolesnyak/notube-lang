@@ -1,0 +1,215 @@
+{
+ "_": "The two hand-curated shelves of the Podcasts tab. Everything NOT named here is the German block, which pocketcasts_sort.py orders by episode count. Membership, not position: positions are rewritten on every sort and the app can scramble them.",
+ "head": [
+  {
+   "uuid": "1fb77d70-449a-0137-f266-1d245fc5f9cf",
+   "title": "Что это было?"
+  },
+  {
+   "uuid": "55832030-3482-013a-d646-0acc26574db2",
+   "title": "BBC News"
+  },
+  {
+   "uuid": "18cf3980-5c90-0138-97d6-0acc26574db2",
+   "title": "BBC News"
+  },
+  {
+   "uuid": "55980e10-3482-013a-d643-0acc26574db2",
+   "title": "BBC News"
+  },
+  {
+   "uuid": "74a35900-0423-012e-f9a0-00163e1b201c",
+   "title": "Global News Podcast"
+  },
+  {
+   "uuid": "155e4670-c032-012e-656b-00163e1b201c",
+   "title": "In Our Time: Science"
+  },
+  {
+   "uuid": "f6d14b90-bfa3-012e-6502-00163e1b201c",
+   "title": "In Our Time: Culture"
+  },
+  {
+   "uuid": "efac1110-bc5a-012e-62be-00163e1b201c",
+   "title": "In Our Time: Philosophy"
+  },
+  {
+   "uuid": "9777f0d0-bbc5-012e-623d-00163e1b201c",
+   "title": "In Our Time: History"
+  },
+  {
+   "uuid": "df8e6da0-be54-012e-63f6-00163e1b201c",
+   "title": "In Our Time: Religion"
+  },
+  {
+   "uuid": "559d0040-79df-0139-347e-0acc26574db2",
+   "title": "Deutsches Geplapper - Echtes Deutsch lernen"
+  },
+  {
+   "uuid": "ec986e00-ca5c-0137-1e14-0acc26574db2",
+   "title": "Easy German: Learn German with native speakers | Deutsch lernen mit Muttersprachlern"
+  },
+  {
+   "uuid": "aeef0030-7beb-013b-f2a0-0acc26574db2",
+   "title": "German with Jen"
+  },
+  {
+   "uuid": "8d62c6a0-4914-0137-f266-1d245fc5f9cf",
+   "title": "Auf Deutsch gesagt!"
+  }
+ ],
+ "tail": [
+  {
+   "uuid": "68f7d850-2280-013a-d5ea-0acc26574db2",
+   "title": "Nihongo con Teppei Z"
+  },
+  {
+   "uuid": "e1b9a9a0-4aa3-013e-ac0c-0affd8d03709",
+   "title": "FujiのJapanese Podcast"
+  },
+  {
+   "uuid": "f39d8030-94e9-0138-ee7d-0acc26574db2",
+   "title": "N2~N1日本語！Haru no Nihongo"
+  },
+  {
+   "uuid": "0cb44a40-9614-013e-bb37-0acc26574db2",
+   "title": "Nihongo Jam"
+  },
+  {
+   "uuid": "0b3a2d70-072c-013a-d55a-0acc26574db2",
+   "title": "The Bite size Japanese Podcast"
+  },
+  {
+   "uuid": "467818c0-0f07-013f-57cf-02366ae7f0f7",
+   "title": "Otsukare Japanese"
+  },
+  {
+   "uuid": "e936b6b0-ed7c-013a-da2b-0acc26574db2",
+   "title": "Nihongo con Teppei Original Archives 1-700"
+  },
+  {
+   "uuid": "e4ab3e90-bd40-013d-c741-0affcf0896e5",
+   "title": "Nihongo con Teppei 波!"
+  },
+  {
+   "uuid": "fa72aa10-edfd-0138-e805-0acc26574db2",
+   "title": "Japanese with Teppei and Noriko"
+  },
+  {
+   "uuid": "2c81d750-aa52-013b-f39a-0acc26574db2",
+   "title": "SeikaのJapanese Podcast🎧"
+  },
+  {
+   "uuid": "b346c2d0-4935-013a-d6af-0acc26574db2",
+   "title": "Fukushu con Teppei (Nihongo con Teppei)"
+  },
+  {
+   "uuid": "37a73f00-3709-013f-dd33-02dcc226c939",
+   "title": "Nihongo con Teppei with Kimi"
+  },
+  {
+   "uuid": "072646d0-af8e-013e-10fe-0affd8326a09",
+   "title": "MAIの日本語 Podcast［Japanese Podcast］"
+  },
+  {
+   "uuid": "6fec3c80-9145-013d-e4a8-02bf0009cf0d",
+   "title": "Advanced Japanese Podcast with SAYAS"
+  },
+  {
+   "uuid": "bc650880-a724-013d-1a5c-0acc26574db2",
+   "title": "Speak Japanese Naturally Podcast"
+  },
+  {
+   "uuid": "c4db8c70-6b8e-013b-f24c-0acc26574db2",
+   "title": "Tanaka Radio | Japanese Podcast"
+  },
+  {
+   "uuid": "96214cd0-179b-0137-f265-1d245fc5f9cf",
+   "title": "4989 American Life"
+  },
+  {
+   "uuid": "e3f070c0-b9ed-0137-0dbd-0acc26574db2",
+   "title": "YUYUの日本語Podcast【Japanese Podcast】"
+  },
+  {
+   "uuid": "8004dee0-4370-013e-1094-02f42a2a5c5f",
+   "title": "Tokyo Young Boss Season 2"
+  },
+  {
+   "uuid": "0f6c55d0-e4b7-0138-e7d5-0acc26574db2",
+   "title": "TBSラジオ『ジェーン・スーと堀井美香の「OVER THE SUN」』"
+  },
+  {
+   "uuid": "679d8950-45cf-0138-9763-0acc26574db2",
+   "title": "マンガ760"
+  },
+  {
+   "uuid": "aa83e1a0-12fc-013c-f5e3-0acc26574db2",
+   "title": "ゆる哲学ラジオ"
+  },
+  {
+   "uuid": "e9f00d00-d2b3-013a-d991-0acc26574db2",
+   "title": "ジェーン・スー　生活は踊る"
+  },
+  {
+   "uuid": "de565e20-8817-013b-f2e6-0acc26574db2",
+   "title": "となりの雑談"
+  },
+  {
+   "uuid": "7db9d850-ec24-0138-e7f8-0acc26574db2",
+   "title": "THE FIRST TAKE MUSIC"
+  },
+  {
+   "uuid": "145c9980-0220-0137-f265-1d245fc5f9cf",
+   "title": "歴史を面白く学ぶコテンラジオ （COTEN RADIO）"
+  },
+  {
+   "uuid": "06b0aef0-859a-0137-f540-17da1cd0d495",
+   "title": "「話し方」のハナシ"
+  },
+  {
+   "uuid": "8cc59200-7a76-0138-edf8-0acc26574db2",
+   "title": "はるきラジオ"
+  },
+  {
+   "uuid": "b22a36c0-010c-0139-417d-0acc26574db2",
+   "title": "You are enough. あなたはそのままで十分素晴らしい"
+  },
+  {
+   "uuid": "f79c2680-87f1-013a-d802-0acc26574db2",
+   "title": "人生のヒント"
+  },
+  {
+   "uuid": "23b9d510-45ef-0139-3366-0acc26574db2",
+   "title": "ゆる言語学ラジオ"
+  },
+  {
+   "uuid": "189e1140-c48d-0138-e723-0acc26574db2",
+   "title": "雑談７２％"
+  },
+  {
+   "uuid": "feb3f1f0-90b1-0138-ee69-0acc26574db2",
+   "title": "研エンの仲"
+  },
+  {
+   "uuid": "63e2ba10-d177-013c-dd0f-0efa516ad535",
+   "title": "わたなべ夫婦のふたりごと"
+  },
+  {
+   "uuid": "88f22160-0ae2-0139-41b4-0acc26574db2",
+   "title": "はまよこ夫婦のゆるキャリ暮らし"
+  },
+  {
+   "uuid": "84781690-91c9-0136-7b92-27f978dac4db",
+   "title": "シノブとナルミの毒舌アメリカンライフ"
+  },
+  {
+   "uuid": "f17b9bf0-1b8e-012f-f625-525400c11844",
+   "title": "さくら通信"
+  },
+  {
+   "uuid": "da86f900-d1a1-012f-8722-723c91aeae46",
+   "title": "そこあに"
+  }
+ ]
+}

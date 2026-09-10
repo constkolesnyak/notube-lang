@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Everything a run produces: logs, progress/state files, downloaded subs
+run/
+
+# Stray logs/output at the root (redirections that missed run/)
+*.log
+*.out
+
+secrets/
