@@ -1,0 +1,39 @@
+{
+ "_": "EXAMPLE SHELVES — replace with your own. The two hand-curated shelves of the Podcasts tab; everything NOT named here is the block that pocketcasts_sort.py orders by episode count. Membership, not position: positions are rewritten on every sort and the app can scramble them. `uv run python -m notube.pocketcasts_order show` prints your subscriptions with their uuids.",
+ "head": [
+  {
+   "uuid": "74a35900-0423-012e-f9a0-00163e1b201c",
+   "title": "Global News Podcast"
+  },
+  {
+   "uuid": "155e4670-c032-012e-656b-00163e1b201c",
+   "title": "In Our Time: Science"
+  },
+  {
+   "uuid": "559d0040-79df-0139-347e-0acc26574db2",
+   "title": "Deutsches Geplapper - Echtes Deutsch lernen"
+  },
+  {
+   "uuid": "ec986e00-ca5c-0137-1e14-0acc26574db2",
+   "title": "Easy German: Learn German with native speakers | Deutsch lernen mit Muttersprachlern"
+  },
+  {
+   "uuid": "8d62c6a0-4914-0137-f266-1d245fc5f9cf",
+   "title": "Auf Deutsch gesagt!"
+  }
+ ],
+ "tail": [
+  {
+   "uuid": "68f7d850-2280-013a-d5ea-0acc26574db2",
+   "title": "Nihongo con Teppei Z"
+  },
+  {
+   "uuid": "0b3a2d70-072c-013a-d55a-0acc26574db2",
+   "title": "The Bite size Japanese Podcast"
+  },
+  {
+   "uuid": "fa72aa10-edfd-0138-e805-0acc26574db2",
+   "title": "Japanese with Teppei and Noriko"
+  }
+ ]
+}

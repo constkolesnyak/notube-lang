@@ -1,0 +1,52 @@
+[project]
+name = "notube"
+version = "0.1.0"
+description = "Sync YouTube, Pocket Casts and Notion into one media library, with comprehension scoring for language learners."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "curl-cffi>=0.15.0",
+    "google-api-python-client>=2.197.0",
+    "google-auth>=2.55.0",
+    "google-auth-oauthlib>=1.4.0",
+    "httpx>=0.28.1",
+    "notion-client>=3.1.0",
+    # yt_session_refresh drives a headless Chromium to keep the YouTube session
+    # alive. It uses the SYSTEM chromium (NOTUBE_CHROMIUM_BIN),
+    # so `playwright install` is never needed — only the Python package.
+    "playwright>=1.56.0",
+    "python-dotenv>=1.2.2",
+    "yt-dlp>=2026.7.4",  # 2026.7.4 fixes GHSA-6v4j-43gg-vj32 (--write-link injection)
+]
+
+# Run any tool as `uv run python -m notube.<module>`; `notube-daily` is the cron entry point.
+[project.scripts]
+notube-daily = "notube.daily:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["notube"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+# These are house style, not defects: this codebase favours compact one-line imports
+# and short one-line guards, and its comments run long because they carry the reasoning.
+ignore = [
+    "E501",    # long lines are prose in comments, not code
+    "E401",    # `import json, os, re` on one line is the convention here
+    "E701",    # ...as is a one-line `if x: return`
+    "E702",
+    "E731",    # a named lambda is fine for a one-expression helper
+    "E741",
+    "SIM105",  # contextlib.suppress reads worse than try/except/pass at these call sites
+    "SIM115",  # the daily lock file is deliberately held open past its block
+    "B008",    # function calls in argument defaults are deliberate here
+    "B905",    # zip(strict=) would change behaviour at these call sites
+]
